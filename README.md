@@ -5,6 +5,8 @@
 
 A simple QR Code Generator built with React and Tailwind CSS.
 
+## [Live Preview](https://qr-code-generator-eta-one.vercel.app/)
+
 ## ✨ Features
 
 - 🚀 Generate QR codes from text input
