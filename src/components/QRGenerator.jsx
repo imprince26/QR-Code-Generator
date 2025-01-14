@@ -10,8 +10,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
-import { Download, Settings2, RefreshCw, QrCode, Palette } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Download, Settings2, RefreshCw, QrCode, Palette } from "lucide-react";
 
 const QRCodeGenerator = () => {
   const [text, setText] = useState("");
@@ -60,8 +60,8 @@ const QRCodeGenerator = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 p-8">
-      <div className="max-w-4xl mx-auto">
+    <div className="min-h-screen bg-slate-950 md:p-8">
+      <div className="md:max-w-4xl mx-auto">
         <Card className="bg-slate-900 border-slate-800 shadow-2xl">
           <CardHeader className="border-b border-slate-800">
             <CardTitle className="text-3xl font-bold text-center text-white flex items-center justify-center gap-2">
